@@ -1,0 +1,40 @@
+{
+  "name": "figma-tokens-inspector",
+  "version": "1.0.0",
+  "description": "Inspector for Design Tokens applied with Figma tokens plugin by six7",
+  "main": "./src/code.tsx",
+  "scripts": {
+    "start": "webpack --watch"
+  },
+  "keywords": [
+    "figma",
+    "figma-plugins",
+    "inspector",
+    "design-tokens",
+    "figma-tokens"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:jhajduk-sage/figma-tokens-inspector.git"
+  },
+  "author": "Jakub Hajduk <ext-jakub.hajduk@sage.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.13.1",
+    "react-figma": "latest",
+    "yoga-layout-prebuilt": "^1.9.3"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.33.0",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^16.9.14",
+    "html-webpack-inline-source-plugin": "^0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "react-figma-webpack-config": "latest",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
